@@ -15,7 +15,7 @@ public class SceneControl : MonoBehaviour
 
     public List<Level> levelsQueue;
 
-    public List<int> Points;
+    public List<float> Points;
 
     public List<int> LevelIndexes;
 
@@ -29,15 +29,17 @@ public class SceneControl : MonoBehaviour
     void Start()
     {
         ////levelsQueue = new List<Level>();
-        ////Points = new List<int>(2);
+        Points = new List<float>(2);
+        Points.Add(0f);
+        Points.Add(0f);
         ////LevelIndexes = new List<int>(2);
         currentLevels = new List<Level>(2);
         currentLevels.Add(new Level());
         currentLevels.Add(new Level());
         // Add 3 different levels to the queue;
         // Assign first level to both players
-        AssignLevelToPlayer(Player.Player1, levelsQueue[0]);
-        AssignLevelToPlayer(Player.Player2, levelsQueue[0]);
+        ////AssignLevelToPlayer(Player.Player1, levelsQueue[0]);
+        ////AssignLevelToPlayer(Player.Player2, levelsQueue[0]);
         isFirstLoad = false;
     }
 
