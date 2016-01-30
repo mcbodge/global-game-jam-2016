@@ -30,6 +30,7 @@ GGJ/Temp/UnityTempFile-e2118cf915e8fde4ebf557d7c155ec71
 GGJ/Temp/UnityTempFile-e3ad9fd45cfd4264bad7e007a7c7532b
 *.bin
 
+<<<<<<< Updated upstream
 # ============ #
 # OS generated #
 # ============ #
@@ -41,3 +42,8 @@ desktop.ini
 .Trashes
 ehthumbs.db
 Thumbs.db
+=======
+*.txt
+
+*.txt
+>>>>>>> Stashed changes
