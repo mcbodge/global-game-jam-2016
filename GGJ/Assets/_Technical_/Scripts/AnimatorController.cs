@@ -15,7 +15,6 @@ public class AnimatorController : MonoBehaviour {
     {
         animator.SetBool("Run", true);
 		animator.Play("run");
-		
     }
     void FixedUpdate()
     {
@@ -23,5 +22,11 @@ public class AnimatorController : MonoBehaviour {
 		//anim.Run();
 		animator.Play("idle",-1,0f);
         animator.SetBool("Run", false);
+		
+	if (Input.GetKeyDown(KeyCode.A))
+            {
+                animator.SetBool("Run", true);
+            }	
+		
     }	
 }
