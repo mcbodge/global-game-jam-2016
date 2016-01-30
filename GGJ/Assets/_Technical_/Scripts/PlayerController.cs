@@ -3,12 +3,27 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController Instance;
 
     public float Speed;
     public float JumpSpeed;
 
     private Rigidbody rb;
-    private bool IsGrounded;
+    private bool isGrounded;
+
+    private int myVar;
+
+    public bool IsGrounded
+    {
+        get { return isGrounded; }
+        set { isGrounded = value; }
+    }
+
+
+    void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {
@@ -25,7 +40,7 @@ public class PlayerController : MonoBehaviour
 
         rb.AddForce(movement * Speed);
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
         {
             IsGrounded = false;
             rb.AddForce(Vector3.up * JumpSpeed, ForceMode.Impulse);

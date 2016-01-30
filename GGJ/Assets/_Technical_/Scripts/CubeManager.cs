@@ -36,6 +36,7 @@ public class CubeManager : MonoBehaviour
 
 	void StartLerping ()
 	{
+        
 		_isLerping = true;
 		timeStartedLerping = Time.time;
 		startPosition = BlackCube.transform.position;
