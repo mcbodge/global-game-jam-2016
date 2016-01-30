@@ -3,15 +3,15 @@ using System.Collections;
 
 public class CollectableObject : MonoBehaviour {
 
-    public CollectLevel myControl;
-    public CollectableType type;
+    public CollectLevel MyControl;
+    public CollectableType Type;
 
     void OnTriggerEnter()
     {
         gameObject.SetActive(false);
-        if (type.Equals(CollectableType.Good))
-            myControl.CollectedObjects++;
+        if (Type.Equals(CollectableType.Good))
+            MyControl.CollectedObjects++;
         else
-            myControl.CurrentPlayerController.StopPlayer(5f);
+            MyControl.CurrentPlayerController.StopPlayer(5f);
     }
 }
