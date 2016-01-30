@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
 
     private int myVar;
 
+    public bool ReadInput = true;
+
     public bool IsGrounded
     {
         get { return isGrounded; }
@@ -33,17 +35,20 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
-
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-
-        rb.AddForce(movement * Speed);
-
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
+        if (ReadInput)
         {
-            IsGrounded = false;
-            rb.AddForce(Vector3.up * JumpSpeed, ForceMode.Impulse);
+            float moveHorizontal = Input.GetAxis("Horizontal");
+            float moveVertical = Input.GetAxis("Vertical");
+
+            Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+
+            rb.AddForce(movement * Speed);
+
+            if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
+            {
+                IsGrounded = false;
+                rb.AddForce(Vector3.up * JumpSpeed, ForceMode.Impulse);
+            }
         }
     }
 }
