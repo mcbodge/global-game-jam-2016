@@ -1,79 +1,37 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEditor.Animations;
 
+public class AnimationController : MonoBehaviour {
 
-public class PlayerControllerDaniele : MonoBehaviour
-{
+    private Animator animator;
 
-    public float Speed;
-    public float JumpSpeed;
+	// Use this for initialization
+	void Start () {
+        animator = GetComponent<Animator>();
+	}
 
-    private Rigidbody rb;
-    private bool IsGrounded;
-	public Animation idle;
-	public Animation run;
-	public AnimatorController myController;
-		
-
-    void Start()
+    public void StartWalk()
     {
-        rb = GetComponent<Rigidbody>();
-		rb.freezeRotation = true;
-        IsGrounded = false;	
+        animator.SetInteger("Anim", 1);
     }
 
-    void FixedUpdate()
+    public void PickUpDress ()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
+        animator.SetInteger("Anim", 2);
+    }
 
+    public void PickUpBeer()
+    {
+        animator.SetInteger("Anim", 3);
+    }
 
-        Vector3 movement = new Vector3(moveHorizontal, 1.0f, moveVertical);
-		//print(moveHorizontal);
-        rb.AddForce(movement * Speed);
+    public void StandStill()
+    {
+        animator.SetInteger("Anim", 4);
+    }
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-			IsGrounded = false;
-            rb.AddForce(Vector3.up * JumpSpeed, ForceMode.Impulse);
-        }
-		if (Input.GetKeyDown(KeyCode.D))
-        {
-			rb.AddForce(movement * Speed);
-        }
-		if (Input.GetKeyDown(KeyCode.A))
-        {
-			rb.AddForce(movement * Speed);
-			//GetComponent<Animation>().Play("idle");
-			//print(GetComponent<Animation>().Play());
-        }		
-                /*if (Input.GetKeyDown(KeyCode.A))
-                 {
-                         Vector3 position = this.transform.position;
-                         position.x--;
-                         this.transform.position = position;
-                 }
-                 if (Input.GetKeyDown(KeyCode.D))
-                 {
-                         Vector3 position = this.transform.position;
-                         position.x++;
-                         this.transform.position = position;
-                 }
-                 if (Input.GetKeyDown(KeyCode.W))
-                 {
-                         Vector3 position = this.transform.position;
-                         position.y++;
-                         this.transform.position = position;
-                 }
-                 if (Input.GetKeyDown(KeyCode.S))
-                 {
-                         Vector3 position = this.transform.position;
-                         position.y--;
-                         this.transform.position = position;
-                 }		*/
+    public void StopAnimation()
+    {
+        animator.SetInteger("Anim", 0);
     }
 }
-
-
-

@@ -33,17 +33,6 @@ public class PlayerController : MonoBehaviour
         IsGrounded = false;
     }
 
-    public void StopPlayer(float seconds)
-    {
-        ReadInput = false;
-        Invoke("StartPlayer", seconds);
-    }
-
-    private void StartPlayer()
-    {
-        ReadInput = true;
-    }
-
     void FixedUpdate()
     {
         if (ReadInput)

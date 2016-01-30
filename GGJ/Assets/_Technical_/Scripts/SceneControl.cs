@@ -41,12 +41,18 @@ public class SceneControl : MonoBehaviour
         isFirstLoad = false;
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+        // Check the players' status
+    }
+
     void Awake()
     {
         Instance = this;
     }
 
-    private void AssignLevelToPlayer(Player player, Level level)
+    public void AssignLevelToPlayer(Player player, Level level)
     {
         int playerIndex = (int)player;
 
@@ -68,6 +74,7 @@ public class SceneControl : MonoBehaviour
         currentLevels[playerIndex].IsActive = false;
         //TODO move levels wrt camera
         currentLevels[playerIndex].enabled = false;
+
 
         LevelIndexes[playerIndex] += 1;
         // next level
