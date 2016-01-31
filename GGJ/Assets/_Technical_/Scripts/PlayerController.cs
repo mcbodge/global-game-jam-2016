@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
 
     private int myVar;
+	private float gravityRatioAdjuster = 48.0f;
 
     public bool ReadInput = true;
 
@@ -46,6 +47,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+		rb.AddForce (Physics.gravity*rb.mass*gravityRatioAdjuster);
         if (ReadInput)
         {
             float moveHorizontal = Input.GetAxis("Horizontal");
@@ -55,7 +57,7 @@ public class PlayerController : MonoBehaviour
 
             rb.AddForce(movement * Speed);
 
-            if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
+            if (Input.GetKeyDown(KeyCode.W) && IsGrounded)
             {
                 IsGrounded = false;
                 rb.AddForce(Vector3.up * JumpSpeed, ForceMode.Impulse);
