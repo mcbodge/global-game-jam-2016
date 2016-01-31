@@ -9,18 +9,12 @@ public class PlayerController : MonoBehaviour
     public float JumpSpeed;
 
     private Rigidbody rb;
-    private bool isGrounded;
+    public bool IsGrounded;
 
     private int myVar;
     private float gravityRatioAdjuster = 48.0f;
 
     public bool ReadInput = true;
-
-    public bool IsGrounded
-    {
-        get { return isGrounded; }
-        set { isGrounded = value; }
-    }
 
 
     void Awake()
@@ -31,7 +25,6 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        IsGrounded = false;
     }
 
     public void StopPlayer(float seconds)
