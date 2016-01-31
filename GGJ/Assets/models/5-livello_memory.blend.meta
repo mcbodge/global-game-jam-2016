@@ -32,6 +32,9 @@ ModelImporter:
     100048: Cube_026
     100050: Cube_039
     100052: Plane
+    100054: Cube_022
+    100056: Cube_023
+    100058: Cube_024
     400000: //RootNode
     400002: Cube
     400004: Cube_001
@@ -59,6 +62,9 @@ ModelImporter:
     400048: Cube_026
     400050: Cube_039
     400052: Plane
+    400054: Cube_022
+    400056: Cube_023
+    400058: Cube_024
     2300000: Cube
     2300002: Cube_001
     2300004: Cube_002
@@ -85,6 +91,9 @@ ModelImporter:
     2300046: Cube_026
     2300048: Cube_039
     2300050: Plane
+    2300052: Cube_022
+    2300054: Cube_023
+    2300056: Cube_024
     3300000: Cube
     3300002: Cube_001
     3300004: Cube_002
@@ -111,6 +120,9 @@ ModelImporter:
     3300046: Cube_026
     3300048: Cube_039
     3300050: Plane
+    3300052: Cube_022
+    3300054: Cube_023
+    3300056: Cube_024
     4300000: Cube_021
     4300002: Cube_020
     4300004: Cube_019
@@ -137,6 +149,9 @@ ModelImporter:
     4300046: Cube_039
     4300048: Plane
     4300050: Cube
+    4300052: Cube_024
+    4300054: Cube_023
+    4300056: Cube_022
     7400000: Default Take
     9500000: //RootNode
   materials:
