@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: c7339bcadb0c1e14a809fc4ca1219f9e
+timeCreated: 1454238983
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: finger_FK_shape
+    100002: finger_main_shape
+    100004: finger_main_shape.R
+    100006: foot_IK_shape.L
+    100008: foot_IK_shape.R
+    100010: foot_roll_shape
+    100012: forearm_FK_shape.L
+    100014: Group3
+    100016: hand_shape.L
+    100018: hand_shape.R
+    100020: head_shape
+    100022: hips_shape
+    100024: neck_shape
+    100026: palm_shape.L
+    100028: palm_shape.R
+    100030: Plane
+    100032: pole_shape.L
+    100034: pole_shape.R
+    100036: ribs_shape
+    100038: shoulder_shape.L
+    100040: shoulder_shape.R
+    100042: spine_shape
+    100044: toe_shape
+    100046: upper_arm_FK_shape.L
+    100048: //RootNode
+    400000: finger_FK_shape
+    400002: finger_main_shape
+    400004: finger_main_shape.R
+    400006: foot_IK_shape.L
+    400008: foot_IK_shape.R
+    400010: foot_roll_shape
+    400012: forearm_FK_shape.L
+    400014: Group3
+    400016: hand_shape.L
+    400018: hand_shape.R
+    400020: head_shape
+    400022: hips_shape
+    400024: neck_shape
+    400026: palm_shape.L
+    400028: palm_shape.R
+    400030: Plane
+    400032: pole_shape.L
+    400034: pole_shape.R
+    400036: ribs_shape
+    400038: shoulder_shape.L
+    400040: shoulder_shape.R
+    400042: spine_shape
+    400044: toe_shape
+    400046: upper_arm_FK_shape.L
+    400048: //RootNode
+    2300000: finger_FK_shape
+    2300002: finger_main_shape
+    2300004: finger_main_shape.R
+    2300006: foot_IK_shape.L
+    2300008: foot_IK_shape.R
+    2300010: foot_roll_shape
+    2300012: forearm_FK_shape.L
+    2300014: Group3
+    2300016: hand_shape.L
+    2300018: hand_shape.R
+    2300020: head_shape
+    2300022: hips_shape
+    2300024: neck_shape
+    2300026: palm_shape.L
+    2300028: palm_shape.R
+    2300030: Plane
+    2300032: pole_shape.L
+    2300034: pole_shape.R
+    2300036: ribs_shape
+    2300038: shoulder_shape.L
+    2300040: shoulder_shape.R
+    2300042: spine_shape
+    2300044: toe_shape
+    2300046: upper_arm_FK_shape.L
+    3300000: finger_FK_shape
+    3300002: finger_main_shape
+    3300004: finger_main_shape.R
+    3300006: foot_IK_shape.L
+    3300008: foot_IK_shape.R
+    3300010: foot_roll_shape
+    3300012: forearm_FK_shape.L
+    3300014: Group3
+    3300016: hand_shape.L
+    3300018: hand_shape.R
+    3300020: head_shape
+    3300022: hips_shape
+    3300024: neck_shape
+    3300026: palm_shape.L
+    3300028: palm_shape.R
+    3300030: Plane
+    3300032: pole_shape.L
+    3300034: pole_shape.R
+    3300036: ribs_shape
+    3300038: shoulder_shape.L
+    3300040: shoulder_shape.R
+    3300042: spine_shape
+    3300044: toe_shape
+    3300046: upper_arm_FK_shape.L
+    4300000: Group3
+    4300002: Plane
+    4300004: foot_IK_shape.L
+    4300006: foot_roll_shape
+    4300008: pole_shape.L
+    4300010: foot_IK_shape.R
+    4300012: pole_shape.R
+    4300014: hips_shape
+    4300016: spine_shape
+    4300018: ribs_shape
+    4300020: neck_shape
+    4300022: head_shape
+    4300024: shoulder_shape.L
+    4300026: upper_arm_FK_shape.L
+    4300028: forearm_FK_shape.L
+    4300030: hand_shape.L
+    4300032: finger_main_shape
+    4300034: finger_FK_shape
+    4300036: palm_shape.L
+    4300038: shoulder_shape.R
+    4300040: hand_shape.R
+    4300042: finger_main_shape.R
+    4300044: palm_shape.R
+    4300046: toe_shape
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
