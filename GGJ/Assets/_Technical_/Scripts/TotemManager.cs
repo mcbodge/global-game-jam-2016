@@ -7,7 +7,7 @@ public class TotemManager : MonoBehaviour
 	//public GameObject HalfTotemDown;
 	public float timeTakenDuringLerp = 1f;
 	public float distanceToMove = 10f;
-	private bool _isLerping;
+	public bool _isLerping;
 	private Vector3 startPosition;
 	private Vector3 endPosition;
 	private float timeStartedLerping;
@@ -18,9 +18,10 @@ public class TotemManager : MonoBehaviour
 	
 	void Update ()
 	{
-		if (Input.GetKey(KeyCode.Space))
+		if (SceneControl.Instance.IsLerping)
 		{
-			StartLerping();
+            ////SceneControl.Instance.IsLerping = false;
+            ////StartLerping();
 		} else if(Input.GetKey(KeyCode.R)) animator.SetTrigger("StartRotation");
 		
 	}
@@ -40,7 +41,7 @@ public class TotemManager : MonoBehaviour
 		}
 	}
 
-	void StartLerping ()
+	public void StartLerping ()
 	{
         
 		_isLerping = true;
