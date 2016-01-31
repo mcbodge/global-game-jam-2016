@@ -17,12 +17,9 @@ public class Level : MonoBehaviour
         }
     }
 
-    public void GoalHasBeenReached(int points = 10)
+    public void GoalHasBeenReached(float points = 0.16f)
     {
-        int currentPlayerInt = (int)CurrentPlayer;
-        SceneControl.Instance.Points[currentPlayerInt] += points;
-        SceneControl.Instance.LevelIndexes[currentPlayerInt] += 1;
-        SceneControl.Instance.AssignNextLevel(CurrentPlayer);
+        SceneControl.Instance.AssignNextLevel(CurrentPlayer, points);
     }
 
     public virtual void CheckGoal() { }

@@ -22,7 +22,7 @@ public class CanvasControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //TODO divide by the number 
-        firstPlayerSlider.normalizedValue = SceneControl.Instance.Points[0];
-        firstPlayerSlider.normalizedValue = SceneControl.Instance.Points[1];
+        firstPlayerSlider.normalizedValue = SceneControl.Instance.Player1Points;
+        firstPlayerSlider.normalizedValue = SceneControl.Instance.Player2Points;
     }
 }
