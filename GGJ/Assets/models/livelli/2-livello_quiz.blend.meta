@@ -1,21 +1,62 @@
 fileFormatVersion: 2
-guid: b866b88f4478f7640a981504bafa6ccf
-timeCreated: 1454189732
+guid: 1524ea3f093eb47afafdd079e745ad67
+timeCreated: 1454196581
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Empty
-    100004: LIVELLO1_LOWPOLY
+    100002: Cube
+    100004: Cube_000
+    100006: Cube_001
+    100008: Cube_002
+    100010: Cube_003
+    100012: Cube_004
+    100014: Cube_025
+    100016: Cube_026
+    100018: Cube_039
+    100020: Plane
     400000: //RootNode
-    400002: Empty
-    400004: LIVELLO1_LOWPOLY
-    2300000: //RootNode
-    2300002: LIVELLO1_LOWPOLY
-    3300000: //RootNode
-    3300002: LIVELLO1_LOWPOLY
-    4300000: LIVELLO1_LOWPOLY
+    400002: Cube
+    400004: Cube_000
+    400006: Cube_001
+    400008: Cube_002
+    400010: Cube_003
+    400012: Cube_004
+    400014: Cube_025
+    400016: Cube_026
+    400018: Cube_039
+    400020: Plane
+    2300000: Cube
+    2300002: Cube_000
+    2300004: Cube_001
+    2300006: Cube_002
+    2300008: Cube_003
+    2300010: Cube_004
+    2300012: Cube_025
+    2300014: Cube_026
+    2300016: Cube_039
+    2300018: Plane
+    3300000: Cube
+    3300002: Cube_000
+    3300004: Cube_001
+    3300006: Cube_002
+    3300008: Cube_003
+    3300010: Cube_004
+    3300012: Cube_025
+    3300014: Cube_026
+    3300016: Cube_039
+    3300018: Plane
+    4300000: Cube_004
+    4300002: Cube_003
+    4300004: Cube_002
+    4300006: Cube
+    4300008: Plane
+    4300010: Cube_001
+    4300012: Cube_000
+    4300014: Cube_025
+    4300016: Cube_026
+    4300018: Cube_039
     7400000: Default Take
     9500000: //RootNode
   materials:
