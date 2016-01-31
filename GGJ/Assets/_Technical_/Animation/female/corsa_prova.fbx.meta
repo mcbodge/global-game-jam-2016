@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: a0d87987f6742fd4483db064fafc4667
+timeCreated: 1454248038
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: avambraccio_dx
+    100004: avambraccio_sx
+    100006: braccio_dx
+    100008: braccio_sx
+    100010: Camera
+    100012: clavicola_dx
+    100014: clavicola_sx
+    100016: collo
+    100018: //RootNode
+    100020: Cube
+    100022: dita_piede_dx
+    100024: dita_piede_dx_end
+    100026: dita_piede_sx
+    100028: dita_piede_sx_end
+    100030: gamba_dx
+    100032: gamba_sx
+    100034: Lamp
+    100036: mano_dx
+    100038: mano_dx_end
+    100040: mano_sx
+    100042: mano_sx_end
+    100044: piede_dx
+    100046: piede_sx
+    100048: polpaccio_dx
+    100050: polpaccio_sx
+    100052: testa
+    100054: testa_end
+    100056: vertebra1
+    100058: vertebra2
+    100060: vertebra3
+    100062: zingaro
+    400000: Armature
+    400002: avambraccio_dx
+    400004: avambraccio_sx
+    400006: braccio_dx
+    400008: braccio_sx
+    400010: Camera
+    400012: clavicola_dx
+    400014: clavicola_sx
+    400016: collo
+    400018: //RootNode
+    400020: Cube
+    400022: dita_piede_dx
+    400024: dita_piede_dx_end
+    400026: dita_piede_sx
+    400028: dita_piede_sx_end
+    400030: gamba_dx
+    400032: gamba_sx
+    400034: Lamp
+    400036: mano_dx
+    400038: mano_dx_end
+    400040: mano_sx
+    400042: mano_sx_end
+    400044: piede_dx
+    400046: piede_sx
+    400048: polpaccio_dx
+    400050: polpaccio_sx
+    400052: testa
+    400054: testa_end
+    400056: vertebra1
+    400058: vertebra2
+    400060: vertebra3
+    400062: zingaro
+    2300000: Cube
+    3300000: Cube
+    4300000: zingaro
+    4300002: Cube
+    7400000: Armature|Armature|Take 001|BaseLayer
+    7400002: Armature|zingaro|Take 001|BaseLayer
+    7400004: zingaro|zingaro|Take 001|BaseLayer
+    9500000: //RootNode
+    13700000: zingaro
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

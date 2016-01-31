@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 9b2420d248231554984d84be855ff90f
+timeCreated: 1454248122
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: avambraccio_dx
+    100004: avambraccio_sx
+    100006: braccio_dx
+    100008: braccio_sx
+    100010: clavicola_dx
+    100012: clavicola_sx
+    100014: collo
+    100016: dita_piede_dx
+    100018: dita_piede_sx
+    100020: //RootNode
+    100022: gamba_dx
+    100024: gamba_sx
+    100026: mano_dx
+    100028: mano_sx
+    100030: piede_dx
+    100032: piede_sx
+    100034: polpaccio_dx
+    100036: polpaccio_sx
+    100038: testa
+    100040: vertebra1
+    100042: vertebra2
+    100044: vertebra3
+    100046: zingaro
+    400000: Armature
+    400002: avambraccio_dx
+    400004: avambraccio_sx
+    400006: braccio_dx
+    400008: braccio_sx
+    400010: clavicola_dx
+    400012: clavicola_sx
+    400014: collo
+    400016: dita_piede_dx
+    400018: dita_piede_sx
+    400020: //RootNode
+    400022: gamba_dx
+    400024: gamba_sx
+    400026: mano_dx
+    400028: mano_sx
+    400030: piede_dx
+    400032: piede_sx
+    400034: polpaccio_dx
+    400036: polpaccio_sx
+    400038: testa
+    400040: vertebra1
+    400042: vertebra2
+    400044: vertebra3
+    400046: zingaro
+    4300000: zingaro
+    7400000: Default Take
+    7400002: Armature_Take_001_BaseLayer
+    9500000: //RootNode
+    13700000: zingaro
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
