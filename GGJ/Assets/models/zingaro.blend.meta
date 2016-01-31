@@ -233,6 +233,7 @@ ModelImporter:
     2300046: upper_arm_FK_shape_L
     2300048: ZBrush_defualt_group_MeshPart0
     2300050: ZBrush_defualt_group_MeshPart1
+    2300052: ZBrush_defualt_group
     3300000: finger_FK_shape
     3300002: finger_main_shape
     3300004: finger_main_shape_R
@@ -259,6 +260,7 @@ ModelImporter:
     3300046: upper_arm_FK_shape_L
     3300048: ZBrush_defualt_group_MeshPart0
     3300050: ZBrush_defualt_group_MeshPart1
+    3300052: ZBrush_defualt_group
     4300000: Plane
     4300002: Group3
     4300004: ZBrush_defualt_group_MeshPart0
@@ -285,6 +287,7 @@ ModelImporter:
     4300046: finger_main_shape_R
     4300048: palm_shape_R
     4300050: toe_shape
+    4300052: ZBrush_defualt_group
     7400000: Default Take
     7400002: idle
     7400004: provaIdlle
