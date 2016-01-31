@@ -5,7 +5,8 @@ using System.Collections.Generic;
 public enum PlatformType
 {
     Neutro,
-    Triggerable
+    Triggerable,
+    DelayPlayer
 }
 
 public class SequenceLevel : Level

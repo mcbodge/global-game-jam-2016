@@ -9,7 +9,9 @@ public class PlatformControl : MonoBehaviour
 
     void OnCollisionStay()
     {
-        myControl.UpdateFSA(type, CurrentPlatformIndex);
+        if (type.Equals(PlatformType.DelayPlayer))
+            myControl.CurrentPlayerController.StopPlayer(3f);
+        else
+            myControl.UpdateFSA(type, CurrentPlatformIndex);
     }
-
 }
